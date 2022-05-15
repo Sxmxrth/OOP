@@ -14,7 +14,10 @@ public class Main {
 //        System.out.println(sam.name);
 //        System.out.println(sam.marks);
 
-        Student gar = new Student();
+        Student gar = new Student("Gargi");
+        System.out.println(gar.name);
+        System.out.println(gar.rollNo);
+        System.out.println(gar.marks);
         gar.name="Gargi";
         gar.marks=93;
         gar.rollNo=28;
@@ -38,6 +41,12 @@ class Student{
         this.rollNo=25;
         this.name="Samarth";
         this.marks=96.5f;
+
+    }
+    Student(String name){
+        this.name=name;
+        this.rollNo=28;
+        this.marks=95.5f;
 
     }
 }

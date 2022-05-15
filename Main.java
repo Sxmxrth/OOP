@@ -6,10 +6,15 @@ public class Main {
 //        System.out.println(Arrays.toString(students));
 
         Student sam = new Student();
-//        System.out.println(sam.rollNo);
+        System.out.println(sam.rollNo);
+        System.out.println(sam.name);
+        System.out.println(sam.marks);
         sam.rollNo=23;
         sam.marks=95;
         sam.name="Samarth";
+//        System.out.println(sam.rollNo);
+//        System.out.println(sam.name);
+//        System.out.println(sam.marks);
 
         Student gar = new Student();
         gar.name="Gargi";
@@ -32,6 +37,9 @@ class Student{
     float marks;
 
     Student(){
+        this.rollNo=25;
+        this.name="Samarth";
+        this.marks=96.5f;
 
     }
 }

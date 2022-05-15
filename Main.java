@@ -5,11 +5,11 @@ public class Main {
         Student[] students=new Student[5];
 //        System.out.println(Arrays.toString(students));
 
-        Student sam = new Student(23,"Samarth",95);
+        Student sam = new Student();
 //        System.out.println(sam.rollNo);
-//        sam.rollNo=23;
-//        sam.marks=95;
-//        sam.name="Samarth";
+        sam.rollNo=23;
+        sam.marks=95;
+        sam.name="Samarth";
 
         Student gar = new Student();
         gar.name="Gargi";
@@ -30,4 +30,8 @@ class Student{
     int rollNo;
     String name;
     float marks;
+
+    Student(){
+
+    }
 }

@@ -1,6 +1,6 @@
 public class overloading {
     public static void main(String[] args) {
-        Students samarth=new Students(23,"Samarth",95.6f);
+        Students samarth=new Students(23,"Samarth",96.6f);
         Students gargi= new Students(28,"Gargi",96.0f);
         Students navneet= new Students(50,"Navneet",94.0f);
 

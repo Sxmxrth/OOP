@@ -4,7 +4,7 @@ public class buffer {
     public static void main(String[] args) throws IOException, NumberFormatException {
 
         BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
-        
+
         System.out.println("enter name:");
         String name=br.readLine();
 
